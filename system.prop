@@ -143,6 +143,7 @@ DEVICE_PROVISIONED=1
 persist.radio.atfwd.start=false
 telephony.lteOnCdmaDevice=1
 ril.subscription.types=RUIM
+persist.radio.add_power_save=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/L/G/W/1X/EVDO) for 7+7 mode device on DSDS mode
 # ro.telephony.default_network=22,22
 
