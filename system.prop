@@ -111,6 +111,7 @@ ro.nfc.port=I2C
 # Perf
 vendor.iop.enable_uxe=1
 ro.vendor.qti.sys.fw.bg_apps_limit=60
+ro.vendor.qti.sys.fw.bservice_enable=true
 vendor.perf.gestureflingboost.enable=true
 vendor.perf.workloadclassifier.enable=false
 
