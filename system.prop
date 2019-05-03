@@ -172,6 +172,9 @@ persist.data.df.dev_name=rmnet_usb0
 # Storage
 persist.fuse_sdcard=true
 
+# SurfaceFlinger
+ro.surface_flinger.protected_contents=true
+
 # Time daemon
 persist.timed.enable=true
 
