@@ -74,7 +74,8 @@ debug.sf.early_phase_offset_ns=1500000
 debug.cpurend.vsync=false
 debug.hwui.use_buffer_age=false
 debug.sf.disable_backpressure=1
-debug.sf.latch_unsignaled=1 
+debug.sf.latch_unsignaled=1
+debug.sf.enable_gl_backpressure=1 
 
 # Fling
 ro.min.fling_velocity=160
