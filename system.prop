@@ -73,6 +73,7 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 debug.sf.early_phase_offset_ns=1500000
 debug.cpurend.vsync=false
 debug.hwui.use_buffer_age=false
+debug.sf.disable_backpressure=1
 
 # Google WFD 
 #property to enable user to access Google WFD settings
