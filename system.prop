@@ -152,6 +152,14 @@ persist.radio.add_power_save=1
 # Set network mode to (T/L/G/W/1X/EVDO, T/L/G/W/1X/EVDO) for 7+7 mode device on DSDS mode
 # ro.telephony.default_network=22,22
 
+# Rendering
+debug.enable.sglscale=1
+debug.egl.hw=1
+debug.sf.disable_hwc=0
+debug.sf.recomputecrop=0
+persist.hwc.ptor.enable=true
+debug.sf.gpu_comp_tiling=1
+
 # Rmnet data
 persist.data.df.dev_name=rmnet_usb0
 
