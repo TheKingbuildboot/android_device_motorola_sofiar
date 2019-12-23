@@ -138,6 +138,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
+
 # Netutils
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
