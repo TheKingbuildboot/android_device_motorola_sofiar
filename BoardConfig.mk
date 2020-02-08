@@ -153,6 +153,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery_dynamic_partition.fstab
 # Split selinux policy
 PRODUCT_SEPOLICY_SPLIT := true
 
+# Enable stats logging in LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Android generic system image always create metadata partition
 BOARD_USES_METADATA_PARTITION := true
 
