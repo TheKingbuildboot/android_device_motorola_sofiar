@@ -205,3 +205,6 @@ ro.boot.wificountrycode=00
 
 # ZRAM
 ro.vendor.qti.config.zram=true
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
