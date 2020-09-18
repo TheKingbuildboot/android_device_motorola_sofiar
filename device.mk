@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     librs_jni
 
+# LineageActions
+PRODUCT_PACKAGES += \
+    LineageActions
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.verified_boot.xml
@@ -165,7 +169,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtinyalsa
-
 
 # TODO(b/78308559): includes vr_hwc into GSI before vr_hwc move to vendor
 PRODUCT_PACKAGES += \
