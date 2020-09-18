@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjson
 
+# IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
@@ -125,6 +126,13 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     tcmiface
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Netutils
 PRODUCT_PACKAGES += \
