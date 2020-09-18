@@ -140,9 +140,6 @@ PRODUCT_PACKAGES += \
     libandroid_net
 
 PRODUCT_PACKAGES += \
-    MotoActions
-
-PRODUCT_PACKAGES += \
     vndk_package
 
 # HIDL
